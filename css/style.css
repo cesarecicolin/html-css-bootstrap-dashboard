@@ -1,0 +1,42 @@
+/* RESET */
+img{
+    max-width: 100%;
+
+}
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+/* HEADER */
+.ms-header-nav{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+
+/* MAIN-LEFT */
+.cool-left{
+    width: 100px;
+    height: calc(100vh - 80px);
+    background-color: blue;
+}
+
+
+/* MAIN-RIGHT */
+.cool-right{
+    width: calc(100% - 100px);
+    height: calc(100vh - 80px);
+    background-color: red;
+}
+
+@media screen and (min-width:992px) {
+    .cool-left{
+        width: 200px;
+    }
+    .cool-right{
+        width: calc(100% - 200px);
+    }
+}
