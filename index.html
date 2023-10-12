@@ -23,19 +23,20 @@
         <!-- HEADER -->
         <header>
             <div class="container-fluid">
-                <nav class="ms-header-nav row align-items-center">
+                <nav class="ms-header-nav row align-items-center" >
 
-                    <div class="col-2">
+                    <div class="col-1">
                         <img class="d-lg-none" src="img/mobile-logo.png" alt="">
-                        <img class="d-none d-lg-block" src="img/logo.svg" alt="">
+                        <img class="d-none d-lg-block ms-img" src="img/logo.svg" alt="">
                     </div>
-                    <div class="col-8">
+                    <div class="col-8 d-flex ms-lence">
+                        <span ><i class="fa-solid fa-magnifying-glass"></i></span>
                         <input class="ms-search" type="search">
                     </div>
-                    <div class="col-2">
+                    <div class="col-auto">
                         <ul class="d-flex mb-0">
                             <li class="ms-3 d-none d-lg-block"><a href="">
-                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                <i class="fa-solid fa-list"></i>
                                 </a></li>
                             <li class="ms-3 d-none d-lg-block"><a href="">
                                     <i class="fa-solid fa-circle-question"></i>
@@ -45,7 +46,7 @@
                                     <i class="fa-solid fa-ellipsis-vertical"></i>
                                 </a>
                             </li>
-                            <li class="ms-3">
+                            <li class="ms-3 ms-color-yellow">
                                 <a href="">
                                     <i class="fa-solid fa-bell"></i>
                                 </a>
@@ -103,29 +104,238 @@
                     <!-- /COOL LEFT -->
                     <!-- COOL RIGHT -->
                     <div class="cool-right">
+                        <!-- MAIN-HEADER -->
                         <div class="main-header row gx-0 pt-3 flex-column flex-md-row">
 
                             <div class="col-auto  col-md-4 col-lg-3 order-md-1">
                                 Nuovo studente <a class="btn btn-outline-light" href="">+</a>
                             </div>
                             <div class="col-auto col-md-4 col-lg-6 ">
-                                <p>Boolean
-                                    <span>Piano blaza</span>
+                                <p> <span class="h2">Boolean</span>
+                                    <span class="ms-bg bg-dark-blue">Piano blaza</span>
                                     <br>
-                                    <span>3app</span>
+                                    <span class="ms-bg bg-dark-blue">3app</span>
                                     <i class="fa-solid fa-angles-right"></i>
-                                    <span>+</span>
-                                    <span class="d-none d-lg-inline-block">Boolean mobile app</span>
-                                    <span class="d-none d-lg-inline-block">Boolean web app</span>
-                                    <span class="d-none d-lg-inline-block">Bolean blog app</span>
+                                    <span class="d-lg-none">+</span>
+                                    <span class="d-none d-lg-inline-block ms-bg bg-dark-blue">Boolean mobile app</span>
+                                    <span class="d-none d-lg-inline-block ms-bg bg-dark-blue">Boolean web app</span>
+                                    <span class="d-none d-lg-inline-block ms-bg bg-dark-blue">Bolean blog app</span>
                                 </p>
                             </div>
                             <div class="col-auto col-md-4 col-lg-3 pb-4">
                                 <p>studenti online negli ultimi 30 minuti</p>
-                                <span>125</span>
+                                <span class="h2">125</span>
                             </div>
                         </div>
-                        </header>
+                        <!-- MAIN-HEADER -->
+
+                        <!-- MAIN -->
+                        <main>
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-12 col-lg-8">
+                                        <!-- TABLE -->
+                                        <div class="card mt-3  ">
+                                            <h2 class="bg-title ">Prossime classi</h2>
+                                            <table class="table caption-top">
+
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col">NOme</th>
+                                                        <th scope="col" class="d-none d-md-table-cell">Data inizio</th>
+                                                        <th scope="col" class="d-none d-md-table-cell">ROI</th>
+                                                        <th scope="col">Stato</th>
+                                                        <th scope="col">Azioni</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row"><img src="img/class-avatar.jpg" alt=""> Classe
+                                                            75</th>
+                                                        <td class="d-none d-md-table-cell">15 Feb 2021</td>
+                                                        <td class="d-none d-md-table-cell">20%</td>
+                                                        <td><span class="ms-bg bg-green">done</span></td>
+                                                        <td>
+                                                            <button type="button"><i
+                                                                    class="fa-solid fa-pencil"></i></button>
+                                                            <button type="button"><i
+                                                                    class="fa-solid fa-trash"></i></button>
+                                                        </td>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row"><img src="img/class-avatar.jpg" alt=""> Classe
+                                                            76</th>
+                                                        <td class="d-none d-md-table-cell">16 Feb 2021</td>
+                                                        <td class="d-none d-md-table-cell">20%</td>
+                                                        <td><span class="ms-bg bg-green">done</span></td>
+                                                        <td>
+                                                            <button type="button"><i
+                                                                    class="fa-solid fa-pencil"></i></button>
+                                                            <button type="button"><i
+                                                                    class="fa-solid fa-trash"></i></button>
+                                                        </td>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row"><img src="img/class-avatar.jpg" alt=""> Classe
+                                                            77</th>
+                                                        <td class="d-none d-md-table-cell">17 Feb 2021</td>
+                                                        <td class="d-none d-md-table-cell">20%</td>
+                                                        <td><span class="ms-bg bg-yellow">done</span></td>
+                                                        <td>
+                                                            <button type="button"><i
+                                                                    class="fa-solid fa-pencil"></i></button>
+                                                            <button type="button"><i
+                                                                    class="fa-solid fa-trash"></i></button>
+                                                        </td>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row"><img src="img/class-avatar.jpg" alt=""> Classe
+                                                            78</th>
+                                                        <td class="d-none d-md-table-cell">18 Feb 2021</td>
+                                                        <td class="d-none d-md-table-cell">20%</td>
+                                                        <td><span class="ms-bg bg-green">done</span></td>
+                                                        <td>
+                                                            <button type="button"><i
+                                                                    class="fa-solid fa-pencil"></i></button>
+                                                            <button type="button"><i
+                                                                    class="fa-solid fa-trash"></i></button>
+                                                        </td>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row"><img src="img/class-avatar.jpg" alt=""> Classe
+                                                            79</th>
+                                                        <td class="d-none d-md-table-cell">19 Feb 2021</td>
+                                                        <td class="d-none d-md-table-cell">20%</td>
+                                                        <td><span class="ms-bg bg-red">done</span></td>
+                                                        <td>
+                                                            <button type="button"><i
+                                                                    class="fa-solid fa-pencil"></i></button>
+                                                            <button type="button"><i
+                                                                    class="fa-solid fa-trash"></i></button>
+                                                        </td>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row"><img src="img/class-avatar.jpg" alt=""> Classe
+                                                            80</th>
+                                                        <td class="d-none d-md-table-cell">20 Feb 2021</td>
+                                                        <td class="d-none d-md-table-cell">20%</td>
+                                                        <td><span class="ms-bg bg-green">done</span></td>
+                                                        <td>
+                                                            <button type="button"><i
+                                                                    class="fa-solid fa-pencil"></i></button>
+                                                            <button type="button"><i
+                                                                    class="fa-solid fa-trash"></i></button>
+                                                        </td>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row"><img src="img/class-avatar.jpg" alt=""> Classe
+                                                            81</th>
+                                                        <td class="d-none d-md-table-cell">21 Feb 2021</td>
+                                                        <td class="d-none d-md-table-cell">20%</td>
+                                                        <td><span class="ms-bg bg-red">done</span></td>
+                                                        <td>
+                                                            <button type="button"><i
+                                                                    class="fa-solid fa-pencil"></i></button>
+                                                            <button type="button"><i
+                                                                    class="fa-solid fa-trash"></i></button>
+                                                        </td>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row"><img src="img/class-avatar.jpg" alt=""> Classe
+                                                            82</th>
+                                                        <td class="d-none d-md-table-cell">22 Feb 2021</td>
+                                                        <td class="d-none d-md-table-cell">20%</td>
+                                                        <td><span class="ms-bg bg-green">done</span></td>
+                                                        <td>
+                                                            <button type="button"><i
+                                                                    class="fa-solid fa-pencil"></i></button>
+                                                            <button type="button"><i
+                                                                    class="fa-solid fa-trash"></i></button>
+                                                        </td>
+
+                                                    </tr>
+
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <!-- /TABLE -->
+
+                                        <!-- F.A.Q. -->
+                                        <div class="card mt-3 " id="faq">
+                                            <h2 class="bg-title ">F.A.Q.</h2>
+                                            <ul class="list-group">
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center">
+                                                    Come aggiungere un nuovo studente?
+                                                    <span><i class="fa-solid fa-angle-down"></i></span>
+                                                </li>
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center">
+                                                    Come posso accedere alle informazioni del mio account
+                                                    <span><i class="fa-solid fa-angle-down"></i></span>
+                                                </li>
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center">
+                                                    Posso usare questa dashbord da mobile
+                                                    <span><i class="fa-solid fa-angle-down"></i></span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!-- /F.A.Q. -->
+                                    </div>
+                                    
+                                    <div class="col-12 col-lg-4">
+                                        <!-- TODO -->
+                                        <div class="card mt-3 ">
+                                            <h2 class="bg-title ">Todo</h2>
+                                            <ul class="list-group p-2">
+                                                <li class="list-group-item">
+                                                    <input type="checkbox" id="new-clas">
+                                                    <label for="new-clas"> Kickoff nuove classi</label>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <input type="checkbox" id="lesson" >
+                                                    <label for="lesson"> Lezione su bootstrap 5 in classe #75</label>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <input type="checkbox" id="ctrl" >
+                                                    <label for="ctrl"> Controllare usarname github studenti</label>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                        <!-- /TODO -->
+                                        <!-- GRAPHIC -->
+                                        <div class="card mt-3">
+                                            <div>
+                                                <img src="img/stats.jpeg" alt="">
+                                                <h3>Utenti attivi</h3>
+                                                <p>Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
+                                                <ul class="list-group p-2">
+                                                    <li class="list-group-item">
+                                                        Gemmaio: 1200
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        Febraio: 800
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                       Marzo:1500
+                                                    </li>
+                                            </div>
+                                        </div>
+                                        <!-- /GRAPHIC -->
+                                    </div>
+                                </div>
+                            </div>
+                        </main>
+
                     </div>
                     <!-- /COOL RIGHT -->
                 </div>
